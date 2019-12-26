@@ -1,0 +1,34 @@
+{
+    "expo": {
+        "name": "Y Tế Số",
+        "slug": "y-te-so",
+        "description": "Là ứng dụng điện tử cho việc theo dõi lịch sử khám bệnh của cá nhân.Người sử dụng có thể đặt lịch khám tại nhà. Sau khi khám, các kết quả cận lâm sàng cũng như đơn thuốc sẽ được lưu trữ vào hồ sơ y bạ cho Bệnh nhân. Bệnh nhân có thể trao đổi trực tiếp với bác sĩ hoặc nhận các thông báo từ bệnh viện trên ứng dụng.",
+        "privacy": "public",
+        "sdkVersion": "33.0.0",
+        "platforms": ["ios", "android", "web"],
+        "android": {
+            "package": "com.hsyterm",
+            "versionCode": 6,
+            "permissions": ["VIBRATE", "SYSTEM_ALERT_WINDOW"],
+            "icon": "./assets/icon.png",
+            "googleServicesFile": "./google-services.json"
+        },
+        "ios": {
+            "supportsTablet": true,
+            "bundleIdentifier": "com.erm.yteso",
+            "icon": "./assets/icon.png"
+        },
+        "version": "1.0.3",
+        "orientation": "portrait",
+        "icon": "./assets/icon.png",
+        "splash": {
+            "image": "./assets/splash.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#ffffff"
+        },
+        "updates": {
+            "fallbackToCacheTimeout": 0
+        },
+        "assetBundlePatterns": ["**/*"]
+    }
+}
